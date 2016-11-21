@@ -93,3 +93,20 @@ void parar(){
   digitalWrite(IN3, LOW); 
   digitalWrite(IN4, LOW);  
 }
+
+void ler_pista(){
+ //Adicionar sensores
+ //A partir do status deles, executar algum movimento 
+}
+
+void wait(){
+//Espera o tempo para o robô ultrapassar
+//completamente a linha de chegada
+//AJUSTAR O TEMPO
+delay(3000);
+//paramos o robô
+parar();
+//esperamos o tempo pedido pela organização
+delay(10000);
+}
+
